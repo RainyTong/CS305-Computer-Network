@@ -8,12 +8,12 @@
 - client-server 客户服务器体系结构
         
     - 有一个总是打开的主机 **服务器**， 服务来自其他主机的请求，其他主机称为 **客户** 
-    - 客户之间++不直接++通信
+    - 客户之间**不直接**通信
     - 服务器具有固定的、周知的地址，**IP地址**
     - 配备大量主机的**数据中心(data center)**, 常作为强大的虚拟服务器
         
 - peer-to-peer(p2p) 对等体系结构 
-    - 主机之间使用++直接++通信 称为**对等方**
+    - 主机之间使用**直接**通信 称为**对等方**
     - 不依赖于always-on server
     - :yellow_heart:**自拓展性**(self-scalability): 
         > New peers bring new service capacity, as well as new service demands.
