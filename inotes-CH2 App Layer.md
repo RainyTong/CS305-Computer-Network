@@ -100,7 +100,7 @@
     1. HTTP客户发起一个与服务器的TCP连接，**port 80**
     2. 服务器接受来自客户的TCP连接
     3. HTTP msg 在client(Web browser)与server(Web server)之间交换
-    4. TSP连接关闭
+    4. TCP连接关闭
 
 ### 2. HTTP连接
 ##### 1. non-persistent HTTP 非持续连接
