@@ -1,7 +1,7 @@
 # Chapter 2 Application Layer
 
 ## 2.1 principles of network applications （应用层协议原理）
-- 需要编写将在段系统上运行的软件
+- 需要编写将在端系统上运行的软件
 - 不需要写在网络核心设备，如： 路由器(routers)或链路层(link layer)交换机上运行的软件
 
 ### 1. possible structure of applications (应用程序的体系结构): 
