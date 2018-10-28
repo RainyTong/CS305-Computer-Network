@@ -79,11 +79,11 @@
 
 有些应用层协议是由RFC文档定义的，因此它们位于公共域中。如：Web的应用层协议HTTP
 
-- [ ] **Tips ：应用层协议是网络应用的一部分。如：Web是Client-Server应用，Web应用有很多组成成分：**
+- [ ] **Tips ：应用层协议是web应用（网络应用）的一部分。如：Web是Client-Server应用，Web应用有很多组成成分：**
 
     :yellow_heart: Web应用 = 文档格式的标准HTML + Web浏览器 + Web服务器 + 应用层协议(HTTP)
 
-> 5种重要的网络应用： Web，文件传输，电子邮件，目录服务，P2P
+> 5种重要的应用： Web，文件传输，电子邮件，目录服务，P2P
 
 ## 2.2 Web and HTTP
 
