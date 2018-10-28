@@ -72,7 +72,7 @@
 ##### 3. 因特网运输协议不提供的服务
 
 ### 7. App-layer protocol 应用层协议
-- 交换的msg类型：请求msg & 相应msg
+- 交换的msg类型：请求msg & 响应msg
 - msg语法
 - msg语义
 - 一个进程何时、如何发送msg
