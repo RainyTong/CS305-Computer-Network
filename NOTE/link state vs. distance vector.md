@@ -7,9 +7,9 @@
 - 结点广播的结果是所有节点具有了网络的等同的、完整的视图
 - 基本思想：给定一个源u，用dijkstra算法得到从u到所有其他结点的最短距离和最短路径的上一跳结点
 
-![image-20181230104553626](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181230104553626.png)
+![image-20181230104553626](./fig/image-20181230104553626.png)
 
-![image-20181230104839303](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181230104839303.png)
+![image-20181230104839303](./fig/image-20181230104839303.png)
 
 Goal: x ==> z
 
@@ -92,7 +92,7 @@ y的forwarding table:
 
 :hear_no_evil:But DV may have count-to-infinity problem ("bad news travels slow") !!!
 
-![image-20181230145429618](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181230145429618.png)
+![image-20181230145429618](./fig/image-20181230145429618.png)
 
 -    Dy(x)=min{c(y,x)+Dx(x),c(y,z)+Dz(x)}=min{60+0,1+5}=6 
 -    Dz(x)=min(c(z,x)+Dx(x),c(z,y)+Dy(x)}=min{50+0,1+6}=7 
