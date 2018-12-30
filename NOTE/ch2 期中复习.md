@@ -43,17 +43,17 @@
      - 一些应用需要“确保吞吐量”， 如：因特网电话
      - 一些应用属于弹性应用，如：电子邮件，文件传输，Web传送等
 
-   <img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181029090922304.png" style="width:1100px" />
+   <img src="./fig/image-20181029090922304.png" style="width:1100px" />
 
    - security
 
 > Internet transport protocol service:
 >
-> <img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181029091759420.png" style="width:1100px" />
+> <img src="./fig/image-20181029091759420.png" style="width:1100px" />
 >
 > App & corresponding (app layer protocol & trans layer protocol)
 >
-> <img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181029091923371.png" style="width:1100px" />
+> <img src="./fig/image-20181029091923371.png" style="width:1100px" />
 
 
 
@@ -78,7 +78,7 @@
 
     - ```response time = 2RTT + file transmission time```
 
-      <img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181030115138452.png" style="width:700px" />
+      <img src="./fig/image-20181030115138452.png" style="width:700px" />
 
     :two:persistent
 
