@@ -23,7 +23,7 @@
    - Application-specific error recovery
 4. UDP 报文段结构 
 
-<img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181027105809918.png" width="30%" height="30%" />
+<img src="./fig/image-20181027105809918.png" width="30%" height="30%" />
 
 - length: in bytes of UDP segment,  including header
 
@@ -40,7 +40,7 @@
 
   5. UDP checksum: 
 
-     <img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181027110840064.png" width=50% height=50% />
+     <img src="./fig/image-20181027110840064.png" width=50% height=50% />
 
 UDP对报文段中的所有16bit字进行加和，然后再将和进行反码运算，求和时遇到的所有溢出都被回卷。
 
@@ -94,9 +94,9 @@ UDP对报文段中的所有16bit字进行加和，然后再将和进行反码运
 
 6. rdt 3.0: channels with errors and loss
 
-<img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181027171454591.png" width=50% height=50% />
+<img src="./fig/image-20181027171454591.png" width=50% height=50% />
 
-<img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181027171547386.png" width=50% height=50% />
+<img src="./fig/image-20181027171547386.png" width=50% height=50% />
 
 7. rdt 3.1: pipelined protocols
 
@@ -104,11 +104,11 @@ UDP对报文段中的所有16bit字进行加和，然后再将和进行反码运
 
    Sender: 
 
-   <img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181027192307382.png" width=50% height=50% />
+   <img src="./fig/image-20181027192307382.png" width=50% height=50% />
 
    Receiver:
 
-   <img src="/Users/wangyutong/Library/Application Support/typora-user-images/image-20181027192317990.png" width=50% height=50% />
+   <img src="./fig/image-20181027192317990.png" width=50% height=50% />
 
 
 
@@ -142,7 +142,7 @@ UDP对报文段中的所有16bit字进行加和，然后再将和进行反码运
 
 2. TCP报文段结构（ TCP segment）
 
-![image-20181027210309602](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181027210309602.png)
+![image-20181027210309602](./fig/image-20181027210309602.png)
 
 - 报文段序号(sequence number for a segment)：是该报文段**首字节的字节流编号**    
 
