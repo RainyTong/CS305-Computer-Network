@@ -15,6 +15,7 @@
   After Mid-term:
   - [link state vs. distance vector](https://github.com/RainyTong/sustc-cs305-computer-network/blob/master/NOTE/link%20state%20vs.%20distance%20vector.md)
   - [What is CIDR?](https://github.com/RainyTong/sustc-cs305-computer-network/blob/master/NOTE/inotes-CIDR.md)
+  - [AS routing in the Internet](https://github.com/RainyTong/CS305-Computer-Network/blob/master/NOTE/Intra-AS%20routing%20in%20the%20Internet.md)
   
   Others:
   - [SYN,FIN,ACK,PSH,RST,URG in TCP](https://github.com/RainyTong/sustc-cs305-computer-network/blob/master/NOTE/TCP%E6%8A%A5%E6%96%87%E4%B8%AD%E7%9A%84SYN%2CFIN%2CACK%2CPSH%2CRST%2CURG.md)
