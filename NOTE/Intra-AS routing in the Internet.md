@@ -2,7 +2,7 @@
 
 - AS: Autonomous System 自治系统
   - Intra-autonomous system routing protocol: 在一个自治系统内运行的路由选择算法叫做**自制系统内部路由选择协议**
-  - **网关路由器 **(gateway router)  ==> make connections between AS
+  - **网关路由器**(gateway router)  ==> make connections between AS
   - Intra-AS routing: AS 内部 
   - Inter-AS routing: AS 之间
   - forwarding table 由AS间路由选择协议和AS内部路由选择协议共同决定
@@ -33,7 +33,7 @@
 
   - 1. BGP basic
 
-       ![image-20181231171830236](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181231171830236.png)
+       ![image-20181231171830236](./fig/image-20181231171830236.png)
 
        在边界网关协议BGP中，路由器之间通过使用半永久的TCP连接来交换路由信息。
 
@@ -71,7 +71,7 @@ SDN组成：
 
 SDN = data plane + control plane = [SDN-controlled switches] + [SDN controller + network-control applications]
 
-![image-20190101113121732](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190101113121732.png)
+![image-20190101113121732](./fig/image-20190101113121732.png)
 
 
 
@@ -90,7 +90,7 @@ SDN = data plane + control plane = [SDN-controlled switches] + [SDN controller +
 
 >  SDN controller = Interface layer(to apps above) + state management layer (**a distributed database**) + communication layer(with swithes below)
 
-![image-20190101113148900](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190101113148900.png)
+![image-20190101113148900](./fig/image-20190101113148900.png)
 
 
 
